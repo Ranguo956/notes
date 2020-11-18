@@ -1,7 +1,3 @@
----
-typora-root-url: charts
----
-
 # 1 前期准备（Ubuntu16.04.3,Linux kernel 4.15.0）
 
 ## 1.1 设置root密码与主机名
@@ -355,19 +351,19 @@ ConnectPeer= "hss.openair4G.eur" { ConnectTo = "127.0.0.1"; No_SCTP ; No_IPv6; P
 
 ## 2.8 查看EPC 运行情况
 
-![hss](/hss.png)
+![hss](./charts/hss.png)
 
 图1：HSS
 
 ------
 
-![mme](/mme.png)
+![mme](./charts/mme.png)
 
 图2：MME
 
 ------
 
-![spgw](/spgw.png)
+![spgw](./charts/spgw.png)
 
 图3：SPGW
 
