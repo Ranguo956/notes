@@ -119,14 +119,10 @@ uname -a	# 若内核为 4.15.0 可不用更换内核
 
 ## 2.3 获取 openair-cn 代码
 
-	# 若有 gitlab 账号：
 	- git clone https://gitlab.eurecom.fr/oai/openair-cn.git ~/	# 克隆代码用户目录下
 	- cd ~/openair-cn && git checkout develop	# 切换到 develop 分支
-	
-	# 若无 gitlab 账号：
-	- wget -P ~/ https://github.com/Ranguo956/notes/blob/main/OAI_EPC/openair-cn.tar.gz 
-	- tar zxvf ~/openair-cn.tar.gz
-	- cd ~/openair-cn && git checkout develop	# 切换到 develop 分支
+
+> 注：需要 gitlab 账号
 
 ## 2.4 配置环境变量
 
