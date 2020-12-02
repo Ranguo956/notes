@@ -22,7 +22,7 @@
     autoloin-guest=false
     autologin-user=root
     autologin-user-timeout=0
-    allow-gust=false
+    allow-guest=false
     
 - sudo gedit /root/.profile		# 找到 mesg n 这一行，修改为：tty -s && mesg n
 - sudo gedit /etc/bash.bashrc
