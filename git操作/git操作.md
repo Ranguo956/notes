@@ -9,7 +9,7 @@
 	- # 添加远程仓库，并为<url>起别名为 origin，
 	- git branch -M master
 	- git remote add origin <url>
-	- # 提交到远程仓库,<address> 为远程仓库的地址
+	- # 提交到远程仓库,<address> 为远程仓库的地址，-u 代表指定origin为默认主机，之后可以不加任何参数使用git push了。
 	- git push -u origin master	
 
 ### 2. 拉取远程仓库到本地
@@ -69,5 +69,5 @@
 	git checkout -- <file_name>		# <file_name> 文件名
 	git config --global user.email "you@example.com"
 	git config --global user.name "Your Name"
-	
+
 
